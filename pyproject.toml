@@ -1,0 +1,13 @@
+[project]
+name = "derivdesk"
+version = "0.1.0"
+description = "Pricing, sizing and mark-to-market for the FINA 30233 trading desk"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+derivdesk = "derivdesk.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
